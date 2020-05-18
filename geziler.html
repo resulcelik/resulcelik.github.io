@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf8>
+<link rel="stylesheet" href="stil.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="gezilerStil.css" type="text/css" media="all"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<title>geziler</title>
+</head>
+<body>
+<header>
+<div class="header-wrapper">
+<div class="profil">
+	<a href="anasayfa.html" <abbr title="ANASAYFA"><img src="resim/profil.jpg"></abbr> </a>
+</div>
+<div class="sosyal" width:30px; height:30px;>
+	<a href="https://twitter.com/KoronaNoktaKom?s=08"><abbr title="Twitter"><img src="resim/t.png"></abbr></a>
+	<a href="https://instagram.com/resulclk40?igshid=1omgjayb59bs9"><abbr title="İnstagram"><img src="resim/i.jpg"></abbr></a>
+	<a href="https://www.youtube.com/channel/UCoexW2JxL_Qe7y-rfrA6WYA?view_as=subscriber"><abbr title="Youtube"><img src="resim/y.jpg"></abbr></a>
+</div>
+<div class="uyeol">
+	<button class="uye"><a href="uyeol.html"> Üye Ol</a> </button>
+</div>
+<div class="giris">
+	 <button class="gir"><a href="kullanici.html">Giriş Yap</a></button>
+</div>
+<div class="isim">
+<h2>insan için yalnız kendi çalıştığının karşılığı vardır..</h2>
+</div>
+	<div class="menu">
+			<ul>
+				<li><a href="anasayfa.html"><h3>Anasayfa</h3></a></li>
+				<li><a href="hobiler.html"><h3>Hobiler</h3></a></li>
+				<li><a href="calismalar.html"><h3>Çalışmalar</h3></a></li>			
+				<li><a href="geziler.html"><h3>Geziler</h3></a></li>			
+				<li><a href="hakkimda.html"><h3>Hakkımda</h3></a></li>				
+			</ul>
+	</div>
+</div>
+</header>
+	<div class="gezistil">
+		<div class="menuAc">
+			<button onclick="test()" id="menuBtn" class="btn1">Menu</button>
+			<div id="menu-acilir" onclick="kapa()" class="acilir-menu">
+				<a href="#" onclick="istanbul()" id="istanbul" >İstanbul</a>
+				<a href="#" onclick="izmir()" id="izmir">İzmir</a>
+				<a href="#" onclick="bolu()" id="bolu">Bolu</a>
+				<a href="#" onclick="kirsehir()" id="kirsehir">Kırşehir</a>
+			</div> 			
+		</div>
+		<div id="resimEkle1" class="resimEkle1">
+			<img src="resim/istanbul.png" width="500px"; height="500px";  />
+		</div>
+		<div id="resimEkle2" class="resimEkle2">
+			<img src="resim/izmir.jpg" width="500px"; height="500px";  />
+		</div>
+		<div id="resimEkle3" class="resimEkle3">
+			<img src="resim/bolu.jpg" width="650px"; height="650px";  />
+		</div>
+		<div id="resimEkle4" class="resimEkle4">
+			<img src="resim/kirsehir.jpg" width="600px"; height="900px";  />
+		</div>	
+	</div>
+	<script>
+			/*function test(){
+			document.getElementById("menu-acilir").classList.toggle("goster");
+			}*/
+			/*function kapa(){
+				document.getElementById("menu-acilir").classList.toggle("gizle");
+			}*/
+				$(function(){ 
+					$("#istanbul").click(function(){
+						$("#resimEkle1").css("display","block");
+						$("#resimEkle2").css("display","none");
+						$("#resimEkle3").css("display","none");
+						$("#resimEkle4").css("display","none");						
+					})
+				})
+				$(function(){
+					$("#izmir").click(function(){
+						$("#resimEkle1").css("display","none");
+						$("#resimEkle2").css("display","block");
+						$("#resimEkle3").css("display","none");
+						$("#resimEkle4").css("display","none");						
+					})
+				})
+				$(function(){
+					$("#bolu").click(function(){
+						$("#resimEkle1").css("display","none");
+						$("#resimEkle2").css("display","none");
+						$("#resimEkle3").css("display","block");
+						$("#resimEkle4").css("display","none");					
+					})
+				})
+				$(function(){
+					$("#kirsehir").click(function(){
+						$("#resimEkle1").css("display","none");
+						$("#resimEkle2").css("display","none");
+						$("#resimEkle3").css("display","none");
+						$("#resimEkle4").css("display","block");						
+					})
+				})
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

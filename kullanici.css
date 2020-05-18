@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;}
+body a{}
+form{
+	width:300px;
+	height:300px;
+	margin-left:50px;
+	margin-top:35px;
+	background-color:#cecece;}
+.knm{
+	margin-left:55px;}
+.btn{
+	cursor: pointer;
+	padding: 8px 25px;
+	font-size: 14px;
+	margin: 4px 2px;
+	margin-left:95px;}
+.btn1{
+	display:none;
+	cursor: pointer;
+	padding: 8px 9px;
+	font-size: 14px;
+	margin: 4px 2px;
+	margin-left:95px;}
+.btn1 a{
+	text-decoration:none}
+.uyarı{
+	width:500px;
+	padding:15px;
+	background-color:gold;}
+.hata{
+	width:500px;
+	padding:15px;
+	background-color:red;}
+.dogru{
+	width:500px;
+	padding:15px;
+	background-color:green;}

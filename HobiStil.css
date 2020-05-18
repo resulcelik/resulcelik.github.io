@@ -1,0 +1,21 @@
+*{
+	margin:0;
+	padding:0;}
+body{}
+.yazı{
+	width:1080px;
+	height:30px;
+	margin:0 auto;
+	text-align:center;
+	margin-top:40px;}
+.resim{
+	width:800px;
+	margin:0 auto;
+	margin-top:5px;}
+.resimYorum{
+	width:280px;
+	margin-top:40px;
+	background-color:#cecece;}
+.son{
+	float:right;
+	border-left:10px solid black;}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf8>
+<link rel="stylesheet" href="kullanici.css" type="text/css" media="all"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>kullanıcı-giris</title>
+</head>
+<body>
+	<p id="message"></p>
+	<form action="#" class="frm" id="frmLogin">
+		<p>
+			<label>Kullanıcı Adı:</label>
+			<input type="text" id="username" name="username">
+			</p>
+			<p>
+			<label>Şifre:</label>
+			<input type="password"  id="pas" name="pas" class="knm">
+			</p>
+			<button class="btn" type="button">Giriş</button>
+			<p style=text-align:center;> NOT: Kullanıcı Adı:resul </p><br>
+			<button class="btn1" id="btn1" ><a href="anasayfa.html">AnaSayfa</a></button>
+	</form>			
+	<script>
+		$(function(){
+			$("button").click(function(){			
+				var usermane;
+				var pas;
+				username=$("#frmLogin #username").val();
+				pas=$("#frmLogin #pas").val();
+				if(username=="")
+				{
+					$("#pas").css("border","1px solid grey").css("box-shadow","0 0 0");
+					$("#username").css("border","2px solid gold").css("box-shadow","0 0 3px gold");
+					$("#message").html("Kullanıcı adı boş bırakılamaz").addClass("uyarı");
+				}				
+				else if(pas=="")
+				{
+					$("#username").css("border","1px solid grey").css("box-shadow","0 0 0");
+					$("#pas").css("border","2px solid gold").css("box-shadow","0 0 3px gold");
+					$("#message").html("şifre boş bırakılamaz").addClass("uyarı");
+				}
+				else if(username!="resul")
+				{
+					$("#username").css("border","2px solid red").css("box-shadow","0 0 3px red");
+					$("#message").html("kullanıcı adı yanlış").removeClass("uyarı").addClass("hata");
+					$("#pas").css("border","1px solid grey").css("box-shadow","0 0 0");					
+				}
+				else
+				{
+					$("#username").css("border","1px solid grey").css("box-shadow","0 0 0");
+					$("#pas").css("border","1px solid grey").css("box-shadow","0 0 0");
+					$("#message").html("Griş Yapıldı Yönlemdiriliyosunuz..").removeClass("hata")
+					.removeClass("hata").addClass("dogru");
+					$("#btn1").css("display","block");
+				}		
+			});
+		});
+	</script>	
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+*{
+	margin:0;
+	padding:0;}
+body{}
+.container{
+	margin:0 auto;
+	width:1080px;
+	height:1200px;
+	margin-top:20px;}
+.fare{
+	margin:0 auto;
+	width:500px;
+	height:500px;
+	margin-top:10px;
+	background-color:#cecece;
+	text-align:center;}
+.x{text-align:center;}
+.konum1{text-align:center;}
+.y{text-align:center;}
+.konum2{text-align:center;}

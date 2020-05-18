@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{}
+.gezistil{
+	width:1080px;
+	height:900px;
+	margin:0 auto;
+	margin-top:40px;}
+.btn1{
+	border:none;
+	padding:16px 29px;
+	background-color:#16a085;
+	color:black;
+	cursor:pointer;	}
+	.btn1:hover , btn1:focus{
+		background-color:#e67e22;
+		color:white;	}
+	.menuAc{
+		position:relative;
+		display:inside-block;
+		left:30px;	}
+	.acilir-menu{
+		display:none;
+		position:absolute;
+		overflow:auto;
+		min-width:90px;
+		box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
+		z-index:1;
+		background-color:#cecece;	}
+	.acilir-menu a{
+		display:block;
+		padding:12px 16px;
+		text-decoration:none;
+		font-size:18px;
+		color:black;	}
+	.acilir-menu a:hover{
+		background:#e67e22;
+		color:white;	}
+	.btn1:hover +.acilir-menu{
+		display:block;	}
+	.acilir-menu:hover{
+		display:block;	}
+	.resimEkle1{
+		width:600px;
+		height:600px;
+		margin:0 auto;
+		display:none;
+		position:absolute;
+		margin-left:300px;	}
+	.resimEkle2{
+		width:600px;
+		height:600px;
+		margin:0 auto;
+		display:none;
+		position:absolute;
+		margin-left:300px;	}
+	.resimEkle3{
+		width:650px;
+		height:650px;
+		margin:0 auto;
+		display:none;
+		position:absolute;
+		margin-left:300px;	}
+	.resimEkle4{
+		width:400px;
+		height:900px;
+		margin:0 auto;
+		display:none;
+		position:absolute;
+		margin-left:300px;	}	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,131 @@
+*{
+	margin:0;
+	padding:0;}
+body{	}
+header{
+	margin:left;
+	width:100%; 
+	height:200px; 	}
+.header-wrapper{
+	width:1080px;
+	height:220px;
+	margin:0 auto;	
+	border-bottom:2px solid #cecece;}
+.profil{
+	float:left;}
+.profil img{
+	margin-top:10px;
+	margin-left:10px;
+	width:200px;
+	height:200px;
+	border-radius:300px;
+	cursor: pointer;}	
+.sosyal{
+	float:right;}
+.sosyal img{
+	margin-top:10px;
+	margin-right:5px;
+	width:30px;
+	height:30px;	}
+.uyeol{
+	float:right;
+	margin-top:50px;
+	margin-right:-108px;
+	width:108px;
+	height:28px;	
+	text-decoration:none	}
+.uye{
+	background-color:#16a085;
+	padding:10px 31px;
+	border: none;
+	cursor: pointer;
+	font-size: 15px	}
+.uye a{
+		
+	text-decoration:none;
+	color:black;}
+.uye:hover {
+    background-color: #e67e22; /*Carrot*/
+	color:white;
+	}
+.uye a:hover{
+	color: white;}
+.isim{
+	float:left;
+	width:-100px;
+	margin-top:80px;
+	margin-left:120px;
+	color: black;
+	font-style:italic;
+    text-shadow: 1px 1px 2px black, 
+               0 0 25px blue, 
+               0 0 5px #16a085;}
+
+
+.giris{
+	float:right;
+	margin-top:95px;
+	margin-right:-108px;
+	width:109px;
+	height:28px;	
+	text-align:center;}
+.gir{
+	background-color:#16a085;
+	padding:10px 23px;
+	border: none;
+	cursor: pointer;
+	font-size: 15px}
+.gir a{
+		
+	text-decoration:none;
+	color:black;}
+.gir:hover {
+ background-color: #e67e22; /*Carrot*/}
+.gir a:hover{
+	color: white;}
+.menu{
+	float:left;
+	width:-80px;
+	height:20px;
+	margin-right:100px;
+	margin-top:70px;
+	margin-left:110px;
+	line-height :20px;}
+.menu ul{ 
+list-style:none;}
+.menu ul li{
+	float:left;
+	margin-left:30px;}	
+.menu ul li a{
+	text-decoration:none;
+	color:black;
+	font-weight: bold;}
+.menu ul li a:hover{
+	color:#e67e22; ;}
+.wrapper{
+	width:1080px;
+	height:700px;
+	margin:0 auto;
+	margin-top:40px;
+	/*background-color:#cecece;*/	}   
+.footer{
+	width:100%;
+	height:150px;
+	background-color:#16a085;	}
+.alt a{
+	float:left;
+	text-align:center;
+	text-decoration:none;
+	margin-left:50px;
+	margin-top:60px;}
+
+
+
+
+
+
+
+
+
+
+
